@@ -1,12 +1,14 @@
+import Card from './Card';
+
 const CardList = ({props}) => {
     return (
-        <div>
-            <h1>Hello</h1>
-            {console.log(props[0].id)}
-        </div>
-        
+        props.map((user, i) => {
+            return (
+                < Card key={i} id={props[i].id} name={props[i].name} email={props[i].email}/>
+            );
+        })
     );
-}
+    }
 
 
 export default CardList;
