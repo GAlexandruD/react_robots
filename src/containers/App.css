@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'gunship3d';
+    src: url('gunship3d.ttf')  format('truetype')
+  }
+
+#title{
+    font-family: 'gunship3d';
+    color: rgb(95, 5, 42);
+    font-weight: 900;
+}
